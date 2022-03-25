@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'C:\Users\Josh\OneDrive\Documents\Transfer project\GUI\Seats.ui'
+# Form implementation generated from reading ui file 'N:\My Settings\Downloads\Transfer project v3\GUI\Seats.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.4
 #
@@ -106,6 +106,25 @@ class Ui_Seating(object):
         font.setWeight(75)
         self.lblCost.setFont(font)
         self.lblCost.setObjectName("lblCost")
+        self.lblSeats = QtWidgets.QLabel(Seating)
+        self.lblSeats.setGeometry(QtCore.QRect(10, 270, 121, 21))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.lblSeats.setFont(font)
+        self.lblSeats.setObjectName("lblSeats")
+        self.lblSelected = QtWidgets.QLabel(Seating)
+        self.lblSelected.setGeometry(QtCore.QRect(10, 290, 281, 191))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(False)
+        font.setWeight(50)
+        self.lblSelected.setFont(font)
+        self.lblSelected.setText("")
+        self.lblSelected.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignTop)
+        self.lblSelected.setWordWrap(True)
+        self.lblSelected.setObjectName("lblSelected")
 
         self.retranslateUi(Seating)
         QtCore.QMetaObject.connectSlotsByName(Seating)
@@ -137,6 +156,7 @@ class Ui_Seating(object):
         self.comboSpecial.setItemText(5, _translate("Seating", "5"))
         self.lblTotal.setText(_translate("Seating", "Total Cost"))
         self.lblCost.setText(_translate("Seating", "£0.00"))
+        self.lblSeats.setText(_translate("Seating", "Seats Selected"))
 import Seats_rc
 
 
