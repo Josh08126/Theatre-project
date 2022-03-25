@@ -2,6 +2,7 @@
   <qresource prefix="newPrefix">
     <file>seatavailable.png</file>
     <file>seatoccupied.png</file>
+    <file>background.jpg</file>
     <file>seatselected.png</file>
   </qresource>
 </RCC>
